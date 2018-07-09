@@ -6,12 +6,11 @@
 [1 2 3 4] 에서 데이터 꺼내면 1부터 나오고 빈 공간이 생기게 됩니당 넣을 때는 4이후에 추가 되어요
 
 ## Queue module
-import queue
-q = queue.Queue() ->  큐 생성
-q.put() -> 큐에 자료 넣기
-q.get() -> 큐에서 자료 꺼내기
-q.qsize() -> 사이즈
-q.empty()
-q.full()
+import queue  
+q = queue.Queue() ->  큐 생성  
+q.put() -> 큐에 자료 넣기  
+q.get() -> 큐에서 자료 꺼내기  
+q.qsize() -> 사이즈  
+q.empty()  
+q.full()  
 
-# QUEUE
